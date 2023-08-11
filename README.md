@@ -1,8 +1,12 @@
 # Validation Code for [MS-BioGraphs](https://blogs.qub.ac.uk/dipsa/MS-BioGraphs)
 
-## Repository
+## Links
 
-https://github.com/DIPSA-QUB/MS-BioGraphs-Validation
+MS-BioGraphs: https://blogs.qub.ac.uk/dipsa/MS-BioGraphs
+
+MS-BioGraphs Validation: https://blogs.qub.ac.uk/dipsa/MS-BioGraphs-Validation/ 
+
+Code Repo: https://github.com/DIPSA-QUB/MS-BioGraphs-Validation
 
 ## Explanation
 
