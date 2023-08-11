@@ -1,0 +1,106 @@
+
+*** MS-Biographs Validation Script ***
+
+path: /users/2635474/sharedscratch/1/MS1
+graph_name: MS1
+
+Checking shasum of MS1.ojson (/users/2635474/sharedscratch/1/MS1.ojson)
+ojson shasum: c60afa0652955fd46f1bb8056380523504d69fa6
+local shasum: c60afa0652955fd46f1bb8056380523504d69fa6
+shasum matches.
+
+JSON:
+{
+  "name": "MS1",
+  "directed": 0,
+  "edge_weighted": 1,
+  "vertices_count": 43144218,
+  "edges_count": 2660495200,
+  "max_weight": 634925,
+  "max_degree": 14212,
+  "zero_degrees_count": 0,
+  "cp_first_degree": 6,
+  "cp_last_degree": 1,
+  "cp_first_neighbour": 0,
+  "cp_first_weight": 74811,
+  "cp_last_neighbour": 43144217,
+  "cp_last_weight": 3714,
+  "min_weight": 3680,
+  "largest_component_size": 124003393,
+  "cc_count": 15746208,
+  "wg_size_underlying_ver_1": 6378487341,
+  "wg_size_weights_ver_1": 8282238556,
+  "offsets_ver_1_shasum": "0abedde32e1ac7181897f82d10d40acfe14f2022",
+  "wcc_ver_1_shasum": "4c491dd96e3582b70a203ae4a910001381278d75",
+  "n2o_ver_1_shasum": "b163320b6349fed7a00fb17c4a4a22e7d124b716",
+  "edges_shas_ver_1_shasum": "27974edb4bf8f3b17b00ff3a72a703da18f3807a"
+}
+
+
+Checking file offsets.bin:
+file-path: /users/2635474/sharedscratch/1/MS1_offsets.bin
+json shasum:  0abedde32e1ac7181897f82d10d40acfe14f2022
+local shasum: 0abedde32e1ac7181897f82d10d40acfe14f2022
+shasum matches.
+
+
+Checking file wcc.bin:
+file-path: /users/2635474/sharedscratch/1/MS1-wcc.bin
+json shasum:  4c491dd96e3582b70a203ae4a910001381278d75
+local shasum: 4c491dd96e3582b70a203ae4a910001381278d75
+shasum matches.
+
+
+Checking file n2o.bin:
+file-path: /users/2635474/sharedscratch/1/MS1-n2o.bin
+json shasum:  b163320b6349fed7a00fb17c4a4a22e7d124b716
+local shasum: b163320b6349fed7a00fb17c4a4a22e7d124b716
+shasum matches.
+
+
+Checking file trans_offsets.bin:
+File does not exist.
+
+
+Checking file edges_shas.txt:
+file-path: /users/2635474/sharedscratch/1/MS1_edges_shas.txt
+json shasum:  27974edb4bf8f3b17b00ff3a72a703da18f3807a
+local shasum: 27974edb4bf8f3b17b00ff3a72a703da18f3807a
+shasum matches.
+
+
+*** Files' shasum verified. ***
+
+
+JLIBS_FOLDER: jlibs
+
+[1;32mSHA Calculator for MS-BioGraphs Arc-Labeled Graphs Using WebGraph Library[0;37m
+  graph_file (args[0]):  /users/2635474/sharedscratch/1/MS1
+  output_file (args[1]): MS1_local_edges_shas.txt
+  offsets_file:  /users/2635474/sharedscratch/1/MS1_offsets.bin
+  threads_count: 128
+  Graph Init. Time: 5.15 seconds
+  RandomAccess: true
+  Arc labeled: Yes
+  #Nodes: 43,144,218
+  #Arcs: 2,660,495,200
+  block_size:   67,108,864
+  blocks_count: 40
+
+  [0;32m2023/08/06 14:28:12.556[0;37m Step 0: Started.
+  [0;32m2023/08/06 14:28:41.558[0;37m Step 0: Done.
+  [0;32m2023/08/06 14:28:41.559[0;37m Step 0: Setting blocks' start points completed.
+
+  [0;32m2023/08/06 14:28:41.559[0;37m Step 1: Started.
+  [0;32m2023/08/06 14:29:06.408[0;37m Step 1: Done.
+  processed_edges: 2,660,495,200
+  [0;32m2023/08/06 14:29:06.424[0;37m Step 1: Writing SHAs to files completed.
+
+
+	Exec. Time for creating sha of edge blocks: 59.03 seconds
+
+
+The shasums of edge blocks matches.
+
+Total exec. time: 62,707.335 (ms)
+
