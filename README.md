@@ -16,7 +16,7 @@ We provide a Shell script, `validation.sh`, and a Java program, `EdgeBlockSHA.ja
 of the graphs. Each graph has a `.ojson` file whose `shasum` is verified by the 
 value retreived from our server.
 Files such as  `offsets.bin`,`wcc.bin`, `n2o.bin`,`trans_offsets.bin`, and `edges_shas.txt` 
-have a shasum records in the `ojson` file which is used for validation of these files.
+have shasum records in the `ojson` file which is used for validation of these files.
 
 The graph in WebGraph format has been compressed in  `MS??-underlying.*` and `MS??-weights.*` 
 files. In order to validate the compressed graph, the `EdgeBlockSHA.java` is used. 
