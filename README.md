@@ -29,7 +29,7 @@ the calculated shasum with the relevant row in the `edges_shas.txt` file. This f
 a format such as the following. Each block contains 64 Million consecutive edges. 
 The start of each block is identified by
 a vertex ID and its edge index. The Column `endpoint_sha` is the `shasum` of the 64 Million
-endpoints when stored as an array of 4-Bytes elements stored in the binary format 
+endpoints when stored as an array of 4-Bytes elements in the binary format 
 and in the little endian order. 
 Similarly, Column `weights_sha` shows the `shasum` of weights (labels). 
 We have separated weights from endpoints as in some applications
