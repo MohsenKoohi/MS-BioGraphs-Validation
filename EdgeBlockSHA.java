@@ -1,5 +1,5 @@
 /*
-	It is a parallel code for calculating SHASUM of 64 MB 
+	It is a parallel code for calculating SHASUM of 64 Million 
 	edge blocks of MS-BioGraphs using the WebGraph library.
 */
 
