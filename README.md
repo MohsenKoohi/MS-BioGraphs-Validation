@@ -21,7 +21,7 @@ have shasum records in the `ojson` file which is used for validation of these fi
 The graph in WebGraph format has been compressed in  `MS??-underlying.*` and `MS??-weights.*` 
 files. In order to validate the compressed graph, the `EdgeBlockSHA.java` is used. 
 It is  a parallel Java code that uses the WebGraph library
-to traverse the graph and calculate the shasum of blocks of edges (endpoints and weights).
+to traverse the graph and calculates shasum of the blocks of edges (endpoints and weights).
 Then, the calculated results are matched with the `edges_shas.txt` file of the graph.
 
 It is also possible to validate some particular blocks by matching
