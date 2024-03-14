@@ -42,7 +42,7 @@
 
 # Retrieving the shasum of the ojson file and matching it
 	echo -e "\nChecking shasum of ${graph_name}.ojson (${graph_path}.ojson)"
-	ojson_shasum=`wget "http://78.46.92.120/MS-BioGraphs/${graph_name}/ojson_shasum" -q -O -`
+	ojson_shasum=`wget "http://hpgp.net/MS-BioGraphs/${graph_name}/ojson_shasum" -q -O -`
 	if [ -z $ojson_shasum ]; then 
 		echo "Error. Cannot retrieve data."
 		exit -4 
