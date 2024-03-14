@@ -101,7 +101,7 @@
 # Downloading the WebGraph Java libraries
 	echo -e "\nJLIBS_FOLDER: ${JLIBS_FOLDER}"
 	if [ ! -d ${JLIBS_FOLDER} ]; then
-		wget "http://78.46.92.120/MS-BioGraphs/jlibs.zip"
+		wget "http://hpgp.net/download/jlibs.zip"
 		if  [ $? != 0 ]; then
 			echo "Error in downloading jlibs"
 			exit -7;
