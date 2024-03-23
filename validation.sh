@@ -1,4 +1,4 @@
-#!/bin/sh 
+#!/bin/bash 
 
 # Initializations
 	JLIBS_FOLDER="jlibs"
