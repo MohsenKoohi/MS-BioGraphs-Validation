@@ -4,10 +4,10 @@
 
 ## Links
 
-- MS-BioGraphs: https://blogs.qub.ac.uk/dipsa/MS-BioGraphs
+- MS-BioGraphs: https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs
 - MS-BioGraphs on IEEE DataPort (Open Access dataset): https://dx.doi.org/10.21227/gmd9-1534 .
-- Downloading from DataPort: https://blogs.qub.ac.uk/dipsa/MS-BioGraphs-on-IEEE-DataPort/
-- MS-BioGraphs Validation: https://blogs.qub.ac.uk/dipsa/MS-BioGraphs-Validation/ 
+- Downloading from DataPort: https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-on-IEEE-DataPort/
+- MS-BioGraphs Validation: https://blogs.qub.ac.uk/DIPSA/MS-BioGraphs-Validation/ 
 - Code Repo: https://github.com/DIPSA-QUB/MS-BioGraphs-Validation
 
 ## Explanation
